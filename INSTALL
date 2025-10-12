@@ -1,0 +1,48 @@
+INSTALL Guide
+
+Follow these steps to set up and run the project:
+
+Requirements
+------------
+- Compatible NVIDIA GPU
+- Windows 10/11, WSL, or Linux (x86_64)
+- CUDA Toolkit 12.0 or newer (https://developer.nvidia.com/cuda-downloads)
+- cuTENSOR library (https://developer.nvidia.com/cutensor)
+- Current GPU driver
+
+Steps
+-----
+
+1. Install NVIDIA Driver.
+   Get the latest available driver for your GPU from NVIDIA:
+   https://www.nvidia.com/Download/index.aspx
+
+2. Install CUDA Toolkit.
+   Download from https://developer.nvidia.com/cuda-downloads and follow instructions for your OS.
+
+3. Install cuTENSOR.
+   Download the cuTENSOR library from NVIDIA and copy headers/libraries to your CUDA Toolkit install directory.
+   Typical locations:
+     - include/
+     - lib/x64/
+
+4. Download or Clone this Project.
+   Place the repository in your preferred workspace.
+
+5. Set Environment Variables.
+   Ensure CUDA and cuTENSOR directories are in your system PATH and LIBRARY_PATH.
+
+6. Create Results Directory.
+   Add a folder named "results/" to the project root.
+
+7. Build and Run.
+   Use:
+     make clean
+     make build
+     make run
+   OR:
+     ./run.sh
+
+Output
+------
+Results will be written to results/matrix_output.txt as a plain text matrix.
