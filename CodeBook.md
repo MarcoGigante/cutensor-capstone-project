@@ -20,9 +20,6 @@ This repository contains the following files and directories:
 - `bin/`  
   Location for compiled executables.
 
-- `cuTensorExample.cu`  
-  Optional reference/example CUDA/cuTENSOR code.
-
 - `README.md`  
   Project overview, setup instructions, codebook, and authorship info.
 

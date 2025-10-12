@@ -4,7 +4,7 @@ This project implements matrix multiplication on NVIDIA GPUs using the cuTENSOR 
 
 ## Codebook
 
-See [Codebook.md](Codebook.md) for a detailed description of all project files and structure.
+See [Codebook.md](https://github.com/MarcoGigante/cutensor-capstone-project/blob/main/CodeBook.md) for a detailed description of all project files and structure.
 
 ## Install
 
