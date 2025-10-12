@@ -2,6 +2,11 @@
 
 This project implements matrix multiplication on NVIDIA GPUs using the cuTENSOR library. The program generates two random matrices, performs `C = alpha * A * B + beta * C` on the GPU, and saves the result for review.
 
+## Video Demonstration
+
+Watch the full workflow demonstration here:  
+[CUDA cuTENSOR Matrix Multiplication Project Demo](https://www.tumblr.com/khronotop/797213927110049792/this-video-demonstrates-the-full-workflow-of?source=share)
+
 ## Codebook
 
 See [Codebook.md](https://github.com/MarcoGigante/cutensor-capstone-project/blob/main/CodeBook.md) for a detailed description of all project files and structure.
