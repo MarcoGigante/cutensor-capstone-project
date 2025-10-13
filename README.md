@@ -35,4 +35,4 @@ The output matrix is written to `results/matrix_output.txt` in row-major order.
 
 ## Author
 
-This project was developed for the GPU Specialization Capstone Project in the course [CUDA Advanced Libraries](https://www.coursera.org/learn/cuda-advanced-libraries/home/welcome), part of the [CUDA Advanced Libraries](https://www.coursera.org/learn/cuda-advanced-libraries/home/welcome) specialization from Johns Hopkins University on Coursera.
+This project was developed for the GPU Specialization Capstone Project in the course [CUDA Advanced Libraries](https://www.coursera.org/learn/cuda-advanced-libraries/home/welcome), part of the [GPU Programming Specialization](https://www.coursera.org/specializations/gpu-programming) specialization from Johns Hopkins University on Coursera.
